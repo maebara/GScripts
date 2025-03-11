@@ -1,9 +1,9 @@
 function importarEventos() {
-  var sheetId = "1iNMlAaK4aBdzZONxExt9e-6jqXSeBQXcHhFbUrzTbe4"; // ID de Google Sheets
-  var sheetName = "Eventos"; // Nombre de la hoja donde guardarás los datos
+  var sheetId = ""; // ID de Google Sheets
+  var sheetName = ""; // Nombre de la hoja donde guardarás los datos
 
   var calendarIds = [
-    "sergioxfernando98@gmail.com"
+    "email@gmail.com"
   ];
 
   var spreadsheet = SpreadsheetApp.openById(sheetId);
